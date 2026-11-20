@@ -110,3 +110,16 @@ Regras de catálogo:
 - Preservar nome comercial, variação, sabor, peso/quantidade, SKU e imagem de origem quando disponíveis.
 - Confirmar a marca e a categoria de cada item durante a importação; não classificar automaticamente todo produto Herbolab sem validar os dados do fornecedor.
 - A lista é o escopo inicial, não uma afirmação de que todos os itens estão disponíveis no estoque do fornecedor.
+
+
+## Fornecedor inicial — Body Burn Distribuidora
+
+- Catálogo público consultado em 2026-11-20: https://bodyburndistribuidora.com/catalogo.
+- Marcas prioritárias aprovadas: Integralmedica, Max Titanium, Under Labz, Adaptogen, Body Action, Dr. Peanut, DUX, Demons Lab, Vitafor e Herbolab.
+- O site exibe totais de catálogo variáveis entre capturas (580 e 587 produtos); o bloco de marcas da página inicial lista 447 itens somados para as dez marcas prioritárias. Esses números são referência de catálogo público, não registros importados.
+- Preços de distribuidor exigem login. API/feed/exportação oficial ainda não foram confirmados.
+- Mapeamento e regras: `docs/BODY_BURN_CATALOG_MAPPING.md`.
+- Modelo de staging CSV: `templates/body_burn_catalog_import.csv`.
+- Seed idempotente de marcas e cadastro-base do fornecedor: `supabase/migrations/202611200002_seed_power_nutri_brands.sql`.
+- A migration seed depende da migration inicial e ainda não foi aplicada/testada no Supabase.
+- Nenhum produto, preço, estoque ou imagem foi importado. A integração automática permanece inativa até confirmação de um canal autorizado.
