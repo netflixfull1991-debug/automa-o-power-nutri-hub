@@ -101,3 +101,12 @@ Para cada etapa concluída, registrar:
 - Supabase de desenvolvimento informado: project ref `oizglhttuzecwjuzdfih`, região observada `us-west-2`. Migration ainda não aplicada; integração GitHub-Supabase não confirmada.
 - A interface permanece protótipo estático, sem autenticação nem dados operacionais reais.
 - Testes de execução e deploy ainda pendentes. Esta transferência não ativa integrações externas.
+
+
+### Etapa 4 — escopo inicial de marcas do catálogo (2026-11-20)
+- Estado: lista de marcas definida pelo usuário; ainda não representa importação nem disponibilidade confirmada.
+- Marcas: Integralmedica, Max Titanium, Under Labz, Adaptogen, Body Action, Dr. Peanut, DUX, Demons Lab, Vitafor e Herbolab.
+- Observação: Herbolab será tratada como linha/marca de encapsulados, conforme orientação do usuário; validar a categoria de cada produto com os dados do fornecedor.
+- Diretriz: priorizar essas marcas na primeira etapa de organização/importação do catálogo Body Burn; preservar SKU, variações, sabores, quantidades e imagens de origem quando disponíveis. Não inventar preços, estoque ou produtos.
+- Arquivo atualizado: `docs/POWER_NUTRI_HUB_IMPLEMENTATION.md`.
+- Próxima etapa: mapear o catálogo Body Burn para essas marcas e identificar um método autorizado de exportação/importação (API, feed ou CSV).
