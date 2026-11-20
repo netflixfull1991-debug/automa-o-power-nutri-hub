@@ -110,3 +110,21 @@ Para cada etapa concluída, registrar:
 - Diretriz: priorizar essas marcas na primeira etapa de organização/importação do catálogo Body Burn; preservar SKU, variações, sabores, quantidades e imagens de origem quando disponíveis. Não inventar preços, estoque ou produtos.
 - Arquivo atualizado: `docs/POWER_NUTRI_HUB_IMPLEMENTATION.md`.
 - Próxima etapa: mapear o catálogo Body Burn para essas marcas e identificar um método autorizado de exportação/importação (API, feed ou CSV).
+
+
+### Etapa 5 — mapeamento inicial do catálogo Body Burn (2026-11-20)
+- Estado: mapeamento documental e preparação de importação concluídos; integração operacional ainda não ativa.
+- Fonte pública consultada: `https://bodyburndistribuidora.com/catalogo`.
+- Confirmadas as dez marcas escolhidas pelo usuário. A página inicial exibe os seguintes totais por marca: Integralmedica 38, Max Titanium 25, Under Labz 68, Adaptogen 64, Body Action 41, Dr. Peanut 12, DUX 71, Demons Lab 32, Vitafor 31 e Herbolab 65 (447 somados). A contagem geral oscilou entre 580 e 587 nas capturas; números são dinâmicos e não equivalem a itens importados.
+- Preços de compra exigem login. Não foi confirmada API, feed ou exportação CSV/XLSX oficial.
+- Arquivos criados:
+  - `docs/BODY_BURN_CATALOG_MAPPING.md`: marcas, exemplos públicos, taxonomia, regras de importação e limitações.
+  - `templates/body_burn_catalog_import.csv`: cabeçalho do modelo de preparação, sem produtos fictícios.
+  - `supabase/migrations/202611200002_seed_power_nutri_brands.sql`: seed idempotente das dez marcas e cadastro-base Body Burn.
+- Commits:
+  - Mapeamento: `714d6d01510b9c2486f96bab4b0e261beb0c5717`
+  - Modelo CSV: `549cd8696a88b01f373e030c82731114a3cb3880`
+  - Seed SQL: `ef96524a08d9c316fb28a6cc4b312cd89ea62341`
+- Testes: arquivos gravados no GitHub; ainda falta reler/validar os três arquivos no repositório e executar a migration em ambiente Supabase de desenvolvimento.
+- Limites: nenhum produto, preço, estoque ou imagem foi importado; nenhuma automação ou scraping autenticado foi executado.
+- Próximo passo: validar os arquivos, depois obter da Body Burn o canal autorizado de exportação ou uma planilha gerada pela conta do usuário. Não solicitar senha pelo chat.
