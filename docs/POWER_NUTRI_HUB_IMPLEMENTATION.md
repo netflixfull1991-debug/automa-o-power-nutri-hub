@@ -87,3 +87,26 @@ Configurar no painel do Netlify/Supabase, nunca neste repositório:
 ## Critério de conclusão
 
 O projeto só está pronto para operação quando autenticação, RLS, catálogo, importação, precificação, fluxo de pedidos, integrações autorizadas, testes e publicação de homologação tiverem sido validados. Criar arquivos no GitHub não equivale a ativar serviços externos.
+
+
+## Marcas iniciais aprovadas para o catálogo
+
+Lista definida pelo usuário em 2026-11-20 para orientar o catálogo inicial da Power Nutri:
+
+1. Integralmedica
+2. Max Titanium
+3. Under Labz
+4. Adaptogen
+5. Body Action
+6. Dr. Peanut
+7. DUX
+8. Demons Lab
+9. Vitafor
+10. Herbolab — tratar como linha/marca de encapsulados, conforme informado pelo usuário.
+
+Regras de catálogo:
+- Priorizar produtos dessas marcas nas primeiras importações da Body Burn.
+- Não criar produtos, SKUs, preços, estoque ou imagens por suposição.
+- Preservar nome comercial, variação, sabor, peso/quantidade, SKU e imagem de origem quando disponíveis.
+- Confirmar a marca e a categoria de cada item durante a importação; não classificar automaticamente todo produto Herbolab sem validar os dados do fornecedor.
+- A lista é o escopo inicial, não uma afirmação de que todos os itens estão disponíveis no estoque do fornecedor.
