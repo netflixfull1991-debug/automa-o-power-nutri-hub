@@ -23,7 +23,7 @@ Preparar a primeira importação do catálogo Body Burn para o Power Nutri Hub, 
 | Vitafor | VITAFOR | 31 |
 | Herbolab | HERBOLAB | 65 |
 
-Os totais acima são os números de itens exibidos no bloco “Marcas ativas” da página inicial na data da consulta. A página de catálogo apresentou 580 produtos em uma captura e 587 em outra captura recente; a contagem pode variar com atualização do catálogo. Não tratar essas quantidades como total exato de produtos importáveis.
+Os totais acima somam 447 itens e são os números exibidos no bloco “Marcas ativas” da página inicial na data da consulta. A página de catálogo apresentou 580 produtos em uma captura e 587 em outra captura recente; a contagem pode variar com atualização do catálogo. Não tratar essas quantidades como total exato de produtos importáveis.
 
 ## Exemplos públicos identificados
 
